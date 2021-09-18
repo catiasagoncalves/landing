@@ -87,6 +87,16 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
 }
+
+.github-link{
+  text-decoration: none;
+  color:  white;
+}
+
+.github-link:hover{
+  color: red ;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr;
