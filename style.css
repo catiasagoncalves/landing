@@ -40,16 +40,21 @@ p {
 .btn-blue {
   background-color: #1A48E3;
   color: white;
+  border-style: solid;
+  border-color: black;
   padding: 16px 48px;
   border-radius: 4px;
   display: inline-block;
   text-decoration: none;
-  transition: .3s;
+  transition: .1s;
+
 }
+
 
 .btn-blue:hover {
   background-color: #0D1EC6;
   color: white;
+  font-weight: 900;
 }
 
 .card-white {
